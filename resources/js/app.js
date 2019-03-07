@@ -54,6 +54,7 @@ let routes = [
     { path: '/developer', component: require('./components/Developer.vue').default },
     { path: '/users', component: require('./components/Users.vue').default },
     { path: '/invoice', component: require('./components/Invoice.vue').default },
+    { path: '/mohive', component: require('./components/Mohive.vue').default },
     { path: '/*', component: require('./components/NotFoundComponent.vue').default } //ensure this is always the last
   ]
  

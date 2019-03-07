@@ -4,13 +4,13 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box">
-              <span class="info-box-icon bg-info elevation-1"><i class="fa fa-gear"></i></span>
+              <span class="info-box-icon bg-info elevation-1"><i class="fa fa-chart-bar"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text">CPU Traffic</span>
+                <span class="info-box-text">Portfolio profiles</span>
                 <span class="info-box-number">
-                  10
-                  <small>%</small>
+                  4
+                  <!-- <small></small> -->
                 </span>
               </div>
               <!-- /.info-box-content -->
@@ -20,11 +20,11 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-danger elevation-1"><i class="fa fa-google-plus"></i></span>
+              <span class="info-box-icon bg-danger elevation-1"><i class="fa fa-chart-pie"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text">Likes</span>
-                <span class="info-box-number">41,410</span>
+                <span class="info-box-text">Visualizations </span>
+                <span class="info-box-number">5</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -37,11 +37,11 @@
 
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-success elevation-1"><i class="fa fa-shopping-cart"></i></span>
+              <span class="info-box-icon bg-success elevation-1"><i class="fa fa-chart-area"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text">Sales</span>
-                <span class="info-box-number">760</span>
+                <span class="info-box-text">Financial Updates</span>
+                <span class="info-box-number">10</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -50,11 +50,11 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-warning elevation-1"><i class="fa fa-users"></i></span>
+              <span class="info-box-icon bg-warning elevation-1"><i class="fa fa-headset"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text">New Members</span>
-                <span class="info-box-number">2,000</span>
+                <span class="info-box-text">Support Personnel</span>
+                <span class="info-box-number">5</span>
               </div>
               <!-- /.info-box-content -->
             </div>

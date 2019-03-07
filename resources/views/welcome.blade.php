@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Student Portal</title>
+        <title>Financial Reporting</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -32,8 +32,8 @@
                 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: 1;" >
                     
                         <a class="navbar-brand logo" href="#">
-                            <img src="http://emekaonyebuchi.com/wp-content/uploads/2018/07/logo_personal.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                            Emeka
+                            <!-- <img src="http://emekaonyebuchi.com/wp-content/uploads/2018/07/logo_personal.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+                            Aberdeen Quants
                         </a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,23 +71,12 @@
                             </div>
                             <div class='col-md-4'>
                            
-                            <div class="salute">
-                                <h1 class="ml8">
-                                    <span class="letters-container">
-                                        <span class="letters letters-left">Hi</span>
-                                        <span class="letters bang">!</span>
-                                    </span>
-                                    <span class="circle circle-white"></span>
-                                    <span class="circle circle-dark"></span>
-                                    <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
-                                </h1>
-                            </div>
                             <div class='nav-slider'>
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title"><img src="http://emekaonyebuchi.com/wp-content/uploads/2018/07/logo_personal.png" width="40" height="40" class="d-inline-block align-top" alt=""></h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">Student Portal</h6>
-                                        <p class="card-text">Welcome to the Student Portal</p>
+                                        <h5 class="card-title"><!--<img src="http://emekaonyebuchi.com/wp-content/uploads/2018/07/logo_personal.png" width="40" height="40" class="d-inline-block align-top" alt="">--></h5> 
+                                        <h6 class="card-subtitle mb-2 text-muted">Financial Dashboard</h6>
+                                        <p class="card-text"> Welcome 😀</p>
                                         <a href="{{ route('login') }}" class="card-link">Login</a>
                                         <a href="{{ route('register') }}" class="card-link">Register</a>
                                     </div>
@@ -106,7 +95,7 @@
     </body>
 
     <script>
-          $.backstretch("img/school.webp");
+          $.backstretch("img/bg-1.jpg");
     </script>
 </html>
 
