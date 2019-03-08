@@ -29,12 +29,8 @@
 <script>
     export default {
         mounted() {
-            console.log('Component mounted.')
-        }
-    }
-</script>    
-<script>    
-      window.fbAsyncInit = function() {
+            console.log('Component mounted.');
+            window.fbAsyncInit = function() {
     FB.init({
       xfbml            : true,
       version          : 'v3.2'
@@ -48,6 +44,11 @@
   js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+        }
+    }
+  
+      
 </script>
 
 
