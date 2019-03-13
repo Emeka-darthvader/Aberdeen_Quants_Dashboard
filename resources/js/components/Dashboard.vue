@@ -75,7 +75,7 @@
                 <div class="card-body">
                    <div class="row">
                     <div class="col-md-12">
-                      <img src="img/graphs.png">
+                      <img src="img/graphs.png" class="card-img-top">
                     </div>
                   </div>
                 </div>

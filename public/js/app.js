@@ -65717,7 +65717,10 @@ var staticRenderFns = [
           _c("div", { staticClass: "card-body" }, [
             _c("div", { staticClass: "row" }, [
               _c("div", { staticClass: "col-md-12" }, [
-                _c("img", { attrs: { src: "img/graphs.png" } })
+                _c("img", {
+                  staticClass: "card-img-top",
+                  attrs: { src: "img/graphs.png" }
+                })
               ])
             ])
           ])
