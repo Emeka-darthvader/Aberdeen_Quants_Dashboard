@@ -2945,6 +2945,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 window.fbAsyncInit = function () {
   FB.init({
     xfbml: true,
@@ -67755,9 +67756,18 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", { staticClass: "card-text" }, [
                 _vm._v(
-                  "Hi I'm Mohive, Click the link to open our messenger and chat with our AI assistant 😉."
+                  "Hi I'm MARC, Click the link to open our messenger and chat with our AI assistant 😉."
                 )
               ]),
+              _vm._v(" "),
+              _c(
+                "a",
+                { staticClass: "btn btn-primary", attrs: { href: "#" } },
+                [
+                  _c("i", { staticClass: "fab fa-facebook-messenger" }),
+                  _vm._v(" Open Messenger")
+                ]
+              ),
               _vm._v(" "),
               _c(
                 "a",

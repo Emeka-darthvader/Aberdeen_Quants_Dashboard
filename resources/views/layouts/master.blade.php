@@ -133,7 +133,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <router-link to="/invoice" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
-                  <p>General Summary</p>
+                  <p>Portfolio Summary</p>
                 </router-link>
               </li>
             </ul>
@@ -141,7 +141,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <router-link to="/invoice" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
-                  <p>Portfolio 1</p>
+                  <p>Fund 1</p>
                 </router-link>
               </li>
             </ul>
@@ -149,7 +149,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <router-link to="/invoice" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
-                  <p>Portfolio 2</p>
+                  <p>Fund 2</p>
                 </router-link>
               </li>
             </ul>
@@ -157,7 +157,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <router-link to="/invoice" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
-                  <p>Portfolio 3</p>
+                  <p>Fund 3</p>
                 </router-link>
               </li>
             </ul>
@@ -165,7 +165,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <router-link to="/invoice" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
-                  <p>Portfolio 4</p>
+                  <p>Fund 4</p>
                 </router-link>
               </li>
             </ul>
