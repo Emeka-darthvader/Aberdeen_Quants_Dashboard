@@ -11,7 +11,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>Financial Report</title>
+  <title>MoneyARC</title>
 
   <link rel="stylesheet"  href="/css/app.css"/>
 </head>
@@ -58,7 +58,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <a href="index3.html" class="brand-link">
       <!-- <img src="./img/logo_personal.png" alt="My Personal Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8"> -->
-      <span class="brand-text font-weight-light">Reporting Dashboard</span>
+      <span class="brand-text font-weight-light">MoneyARC</span>
     </a>
 
     <!-- Sidebar -->
@@ -182,7 +182,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <router-link to="/mohive" class="nav-link">
               <i class="nav-icon fas fa-comments darkmagenta"></i>
               <p>
-                Chat with Mohive
+                Chat with MARC
               </p>
             </router-link>
           </li>

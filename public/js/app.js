@@ -2638,58 +2638,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -65748,8 +65696,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "col-md-7" }, [
         _c("div", { staticClass: "card" }, [
+          _c("h5", { staticClass: "card-title" }, [_vm._v("Your Investments")]),
+          _vm._v(" "),
           _c("img", { attrs: { src: "img/graphs.png" } })
         ]),
         _vm._v(" "),
@@ -66002,42 +65952,11 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "col-md-5" }, [
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-header" }, [
             _c("h5", { staticClass: "card-title" }, [
               _vm._v("Portfolio Summary")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-tools" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-tool",
-                  attrs: { type: "button", "data-widget": "collapse" }
-                },
-                [_c("i", { staticClass: "fa fa-minus" })]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "btn-group" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-tool dropdown-toggle",
-                    attrs: { type: "button", "data-toggle": "dropdown" }
-                  },
-                  [_c("i", { staticClass: "fa fa-wrench" })]
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-tool",
-                  attrs: { type: "button", "data-widget": "remove" }
-                },
-                [_c("i", { staticClass: "fa fa-times" })]
-              )
             ])
           ]),
           _vm._v(" "),
@@ -66048,88 +65967,6 @@ var staticRenderFns = [
                   _vm._v(
                     '\n                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"\n                    '
                   )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-sm-3 col-6" }, [
-                _c("div", { staticClass: "description-block border-right" }, [
-                  _c(
-                    "span",
-                    { staticClass: "description-percentage text-success" },
-                    [_c("i", { staticClass: "fa fa-caret-up" }), _vm._v(" 17%")]
-                  ),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "description-header" }, [
-                    _vm._v("$35,210.43")
-                  ]),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "description-text" }, [
-                    _vm._v("TOTAL REVENUE")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-sm-3 col-6" }, [
-                _c("div", { staticClass: "description-block border-right" }, [
-                  _c(
-                    "span",
-                    { staticClass: "description-percentage text-warning" },
-                    [
-                      _c("i", { staticClass: "fa fa-caret-left" }),
-                      _vm._v(" 0%")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "description-header" }, [
-                    _vm._v("$10,390.90")
-                  ]),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "description-text" }, [
-                    _vm._v("TOTAL COST")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-sm-3 col-6" }, [
-                _c("div", { staticClass: "description-block border-right" }, [
-                  _c(
-                    "span",
-                    { staticClass: "description-percentage text-success" },
-                    [_c("i", { staticClass: "fa fa-caret-up" }), _vm._v(" 20%")]
-                  ),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "description-header" }, [
-                    _vm._v("$24,813.53")
-                  ]),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "description-text" }, [
-                    _vm._v("TOTAL PROFIT")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-sm-3 col-6" }, [
-                _c("div", { staticClass: "description-block" }, [
-                  _c(
-                    "span",
-                    { staticClass: "description-percentage text-danger" },
-                    [
-                      _c("i", { staticClass: "fa fa-caret-down" }),
-                      _vm._v(" 18%")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "description-header" }, [
-                    _vm._v("1200")
-                  ]),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "description-text" }, [
-                    _vm._v("GOAL COMPLETIONS")
-                  ])
                 ])
               ])
             ])
