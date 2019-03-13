@@ -2638,6 +2638,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -65698,9 +65708,19 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col-md-7" }, [
         _c("div", { staticClass: "card" }, [
-          _c("h5", { staticClass: "card-title" }, [_vm._v("Your Investments")]),
+          _c("div", { staticClass: "card-header" }, [
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Your Investments")
+            ])
+          ]),
           _vm._v(" "),
-          _c("img", { attrs: { src: "img/graphs.png" } })
+          _c("div", { staticClass: "card-body" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-12" }, [
+                _c("img", { attrs: { src: "img/graphs.png" } })
+              ])
+            ])
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card" }, [

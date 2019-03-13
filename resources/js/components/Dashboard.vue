@@ -67,8 +67,18 @@
         <div class="row">
           <div class="col-md-7">
             <div class="card">
-                 <h5 class="card-title">Your Investments</h5>
-                <img src="img/graphs.png">
+                
+                
+                <div class="card-header">
+                   <h5 class="card-title">Your Investments</h5>
+                </div>
+                <div class="card-body">
+                   <div class="row">
+                    <div class="col-md-12">
+                      <img src="img/graphs.png">
+                    </div>
+                  </div>
+                </div>
             </div>
             <!-- /.card -->
  
