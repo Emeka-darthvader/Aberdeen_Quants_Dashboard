@@ -2648,6 +2648,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -65989,7 +65991,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "col-md-12" }, [
                 _c("p", [
                   _vm._v(
-                    '\n                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"\n                    '
+                    "\n                      The market for [fund name] has increased from [last price] to [price change]. The predicted value for this fund is\n                      [ML predicted value]. Your total cost of portfolio is [total_cost] and current value of portfolio is [value].\n                      Your net profit since [date] is [profit value]. Marc recommends you to buy more shares for this [company].\n                    "
                   )
                 ])
               ])
