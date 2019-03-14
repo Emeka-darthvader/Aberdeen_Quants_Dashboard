@@ -131,7 +131,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <router-link to="/invoice" class="nav-link">
+                <router-link to="/portfoliosummary" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
                   <p>Portfolio Summary</p>
                 </router-link>
@@ -139,7 +139,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <router-link to="/invoice" class="nav-link">
+                <router-link to="/fund1" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
                   <p>Fund 1</p>
                 </router-link>
@@ -147,7 +147,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <router-link to="/invoice" class="nav-link">
+                <router-link to="/fund2" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
                   <p>Fund 2</p>
                 </router-link>
@@ -155,7 +155,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <router-link to="/invoice" class="nav-link">
+                <router-link to="/fund3" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
                   <p>Fund 3</p>
                 </router-link>
@@ -163,7 +163,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <router-link to="/invoice" class="nav-link">
+                <router-link to="/fund4" class="nav-link">
                   <i class="nav-icon fas fa-file-invoice blue"></i>
                   <p>Fund 4</p>
                 </router-link>

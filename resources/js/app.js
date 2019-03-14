@@ -50,6 +50,11 @@ Vue.use(VueRouter)
 
 let routes = [
     { path: '/dashboard', component: require('./components/Dashboard.vue').default },
+    { path: '/portfoliosummary', component: require('./components/PortfolioSummary.vue').default },
+    { path: '/fund1', component: require('./components/Fund1.vue').default },
+    { path: '/fund2', component: require('./components/Fund2.vue').default },
+    { path: '/fund3', component: require('./components/Fund3.vue').default },
+    { path: '/fund4', component: require('./components/Fund4.vue').default },
     { path: '/profile', component: require('./components/Profile.vue').default },
     { path: '/developer', component: require('./components/Developer.vue').default },
     { path: '/users', component: require('./components/Users.vue').default },
