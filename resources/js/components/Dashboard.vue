@@ -379,7 +379,7 @@
                   this.changes = ((Math.random() * 100).toFixed(2))+'%';
                   console.log (this.changes);
                   this.loadBarclaysNews();
-              }, 1800000);
+              }, 3000);
               //1800000 //3000 30 mins
           },
           loadBarclaysNews(){
