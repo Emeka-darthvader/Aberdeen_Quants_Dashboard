@@ -14,6 +14,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <title>MoneyARC</title>
 
   <link rel="stylesheet"  href="/css/app.css"/>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>-->
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper" id="app">

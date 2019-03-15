@@ -8,7 +8,7 @@
                     <h5 class="card-title">Chat with our Chatbot</h5>
                     <p class="card-text">Hi I'm MARC, Click the link to open our messenger and chat with our AI assistant 😉.</p>
                     <div>
-                         <div><!--<a href="#" class="btn btn-primary" target="_blank"><i class="fab fa-facebook-messenger"></i> Open Messenger</a>--></div> 
+                         <div><a href="m.me/246412539632958" class="btn btn-primary" target="_blank"><i class="fab fa-facebook-messenger"></i> Open Messenger</a></div> 
                         <div><a href="https://www.freepik.com/free-photos-vectors/people">People vector created by smithytomy - www.freepik.com</a></div>
                     </div>
                     

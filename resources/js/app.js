@@ -7,6 +7,9 @@
 
 require('./bootstrap');
 
+require('./popper.min');
+//require('./popper.js.map');
+
 
 window.Vue = require('vue');
 
