@@ -32,8 +32,8 @@
                 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: 1;" >
                     
                         <a class="navbar-brand logo" href="#">
-                            <!-- <img src="http://emekaonyebuchi.com/wp-content/uploads/2018/07/logo_personal.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-                            Aberdeen Quants
+                            <img src="img/logo_personal.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                            MoneyARC
                         </a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,8 +75,8 @@
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body">
                                         <h5 class="card-title"><!--<img src="http://emekaonyebuchi.com/wp-content/uploads/2018/07/logo_personal.png" width="40" height="40" class="d-inline-block align-top" alt="">--></h5> 
-                                        <h6 class="card-subtitle mb-2 text-muted">Financial Dashboard</h6>
-                                        <p class="card-text"> Welcome 😀</p>
+                                        <h6 class="card-subtitle mb-2 text-muted">MoneyARC Dashboard</h6>
+                                        <p class="card-text"> Welcome</p>
                                         <a href="{{ route('login') }}" class="card-link">Login</a>
                                         <a href="{{ route('register') }}" class="card-link">Register</a>
                                     </div>
