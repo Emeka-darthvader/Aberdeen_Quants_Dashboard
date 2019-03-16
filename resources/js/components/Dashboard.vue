@@ -100,11 +100,6 @@
                     <p>
                       {{DashboardInfo}}
                     </p>
-                    <p>
-                      The market for [fund name] has increased from [last price] to [price change]. The predicted value for this fund is
-                      [ML predicted value]. Your total cost of portfolio is [total_cost] and current value of portfolio is [value].
-                      Your net profit since [date] is [profit value]. Marc recommends you to buy more shares for this [company].
-                    </p>
                   </div>
                   <!-- /.col -->
 
@@ -405,6 +400,9 @@
               headers: {
                 
                         'Content-Type' : "application/x-www-form-urlencoded; charset=UTF-8",
+                        // 'Access-Control-Allow-Origin' : "*",
+                        // 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+                        // 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS'
                         
                       
               },
@@ -413,10 +411,25 @@
             delete instance.defaults.headers.common['X-CSRF-TOKEN'];
             delete instance.defaults.headers.common['X-Requested-With'];
 
+            //https://cors-escape.herokuapp.com/https://maximum.blog/@shalvah/posts
+
               instance.get('https://flask-way.herokuapp.com/')
+             //instance.get('https://cors-escape.herokuapp.com/http://flask-way.herokuapp.com')
               .then(response => {
-            this.DashboardInfo = response.data;
-            //console.log(response.data)
+              //   var FIRS,firstStep,respondents;
+              // firstStep = JSON.stringify(response.data.ArriaText)
+              // respondents = JSON.parse(firstStep);
+              // FIRS = JSON.parse(respondents)
+              // console.log(FIRS);
+            //this.DashboardInfo = respondents;
+            
+            var c = JSON.stringify(response.data.ArriaText)
+            var a = JSON.parse(c);
+            var b = a;
+            var b = a.replace(/(<([^>]+)>)/ig,"");
+            var e = b.replace("&nbsp;f","f");
+            this.DashboardInfo = e;
+            console.log(e)
           });
           
           
