@@ -413,7 +413,7 @@
 
             //https://cors-escape.herokuapp.com/https://maximum.blog/@shalvah/posts
 
-              instance.get('https://flask-way.herokuapp.com/')
+              instance.get('https://moneyarc.herokuapp.com/')
              //instance.get('https://cors-escape.herokuapp.com/http://flask-way.herokuapp.com')
               .then(response => {
               //   var FIRS,firstStep,respondents;
