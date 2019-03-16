@@ -98,6 +98,9 @@
                 <div class="row">
                   <div class="col-md-12">
                     <p>
+                      {{DashboardInfo}}
+                    </p>
+                    <p>
                       The market for [fund name] has increased from [last price] to [price change]. The predicted value for this fund is
                       [ML predicted value]. Your total cost of portfolio is [total_cost] and current value of portfolio is [value].
                       Your net profit since [date] is [profit value]. Marc recommends you to buy more shares for this [company].
@@ -392,9 +395,33 @@
             microFocusNews:{},
             SSENews:{},
             VodafoneNews:{},
+            DashboardInfo:{},
           }
         },
         methods:{
+          loadDashboardInfo(){
+             //console.log ("BarclaysNEWs"); 
+              const instance = axios.create({
+              headers: {
+                
+                        'Content-Type' : "application/x-www-form-urlencoded; charset=UTF-8",
+                        
+                      
+              },
+              });
+
+            delete instance.defaults.headers.common['X-CSRF-TOKEN'];
+            delete instance.defaults.headers.common['X-Requested-With'];
+
+              instance.get('https://flask-way.herokuapp.com/')
+              .then(response => {
+            this.DashboardInfo = response.data;
+            //console.log(response.data)
+          });
+          
+          
+
+          },
           loadNews(){
             this.loadBarclaysNews();
             this.loadMicroFocusNews();
@@ -523,6 +550,7 @@
         
         mounted() {
             console.log('Component mounted.')
+            this.loadDashboardInfo();
             this.loadNews();
         },
         
