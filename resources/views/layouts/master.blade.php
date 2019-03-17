@@ -130,14 +130,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <router-link to="/portfoliosummary" class="nav-link">
-                  <i class="nav-icon fas fa-file-invoice blue"></i>
-                  <p>Portfolio Summary</p>
-                </router-link>
-              </li>
-            </ul>
+ 
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/fund1" class="nav-link">
@@ -172,10 +165,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
           <li class="nav-item">
-            <router-link to="/profile" class="nav-link">
+            <router-link to="#" class="nav-link">
               <i class="nav-icon fas fa-user orange"></i>
               <p>
                 Profile
+              </p>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/terms" class="nav-link">
+            <i class="nav-icon fas fa-file-alt red"></i>
+              <p>
+                Terms and Conditions
               </p>
             </router-link>
           </li>

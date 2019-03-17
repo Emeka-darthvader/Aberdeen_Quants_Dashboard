@@ -19,11 +19,34 @@ import VueProgressBar from 'vue-progressbar';
 
 import swal from 'sweetalert2';
 
+//import 'expose-loader?$!jquery'
+
 
 import { Form, HasError, AlertError } from 'vform';
 
+// import Raphael from 'raphael/raphael'
+// global.Raphael = Raphael
+// import { DonutChart } from 'vue-morris'
+
+//import {Line} from './BaseCharts.js'
+//import LineChart from './LineChart.js'
 
 import Barrier from "./barrier";
+
+//import Vue from 'vue'
+//import HighchartsVue from 'highcharts-vue'
+
+
+//Vue.use(HighchartsVue)
+
+// window.$ = require('jquery')
+// window.JQuery = require('jquery')
+
+require('chart.js');
+require('hchs-vue-charts');
+
+Vue.use(VueCharts);
+
 Vue.prototype.$barrier = new Barrier(window.user);
 
 window.swal = swal;
@@ -58,6 +81,7 @@ let routes = [
     { path: '/fund2', component: require('./components/Fund2.vue').default },
     { path: '/fund3', component: require('./components/Fund3.vue').default },
     { path: '/fund4', component: require('./components/Fund4.vue').default },
+    { path: '/terms', component: require('./components/Terms-and-Condition.vue').default },
     { path: '/profile', component: require('./components/Profile.vue').default },
     { path: '/developer', component: require('./components/Developer.vue').default },
     { path: '/users', component: require('./components/Users.vue').default },
