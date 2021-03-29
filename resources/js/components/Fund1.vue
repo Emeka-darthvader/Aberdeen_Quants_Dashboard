@@ -81,7 +81,7 @@
                            <button @click="fillData()">Randomize</button> 
                             </div> -->
                       <!-- <highcharts :constructor-type="'stockChart'" :options="chartOptions"></highcharts> -->
-                        <canvas id="mix2" count="1"></canvas>
+                        <!-- <canvas id="mix2" count="1"></canvas> -->
                         
                         <chartjs-line :datalabel="'Barclays'" :backgroundcolor="'rgba(136, 226, 27,0.4)'"  :bordercolor="'rgb(136, 226, 27)'" target="mix2" :data="this.Barclaysplot"  :bind="true"  :linetension="0"  :labels="['11-Mar-2019','12-Mar-2019','13-Mar-2019','14-Mar-2019','15-Mar-2019', '16-Mar-2019']" :height="800" ></chartjs-line>
                         
@@ -168,8 +168,10 @@
 //   import Highcharts from 'highcharts'
 // import stockInit from 'highcharts/modules/stock'
 // stockInit(Highcharts)
+import {Line} from 'vue-chartjs'
     export default {
-          
+            extends: Line,
+
             data(){
               return{
                 barclaysNews:{},

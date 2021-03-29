@@ -612,14 +612,11 @@
 
                },
                loadSSEPlot(){
-                                    //console.log ("BarclaysNEWs"); 
+                                   
                 const instance = axios.create({
                 headers: {
                   
                           'Content-Type' : "application/x-www-form-urlencoded; charset=UTF-8",
-                          // 'Access-Control-Allow-Origin' : "*",
-                          // 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-                          // 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS'
                           
                         
                 },
@@ -628,40 +625,25 @@
               delete instance.defaults.headers.common['X-CSRF-TOKEN'];
               delete instance.defaults.headers.common['X-Requested-With'];
 
-              //https://cors-escape.herokuapp.com/https://maximum.blog/@shalvah/posts
+             
 
                 instance.get('https://flask-way.herokuapp.com/getSSE')
-              //instance.get('https://cors-escape.herokuapp.com/http://flask-way.herokuapp.com')
-                .then(response => {
-                //   var FIRS,firstStep,respondents;
-                // firstStep = JSON.stringify(response.data.ArriaText)
-                // respondents = JSON.parse(firstStep);
-                // FIRS = JSON.parse(respondents)
-                // console.log(FIRS);
-              //this.DashboardInfo = respondents;
               
+                .then(response => {
+                
               var c = JSON.stringify(response.data.SSE[0])
               var a = JSON.parse(c);
               var d = JSON.parse(a)
-              //var b = a;
-              //var b = a.replace(/(<([^>]+)>)/ig,"");
-             // var e = b.replace("&nbsp;f","f");
+              
              var  divisor = 10
              for(var i = 0, length = d.length; i < length; i++){
-                  d[i] /= divisor;  // `a[i].x /= d` is shorthand for `a[i].x = a[i].x / d`
+                  d[i] /= divisor;  
                   d[i] /= divisor;
               }
               var zd = d
-               //var zd = d.splice(83,180)
-              //var z =d.splice(169,180)
+               
               this.SSEplot = zd;
-              //var par_2 = e.slice(375)
-              //this.DashboardInfo = e.slice(0,385);
-              //this.DashboardInfo2 = e.slice(385);
-
-              //var f = e.slice(0,385)
               
-              //console.log(this.SSEplot)
             });
 
                },
