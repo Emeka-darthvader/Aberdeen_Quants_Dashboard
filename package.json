@@ -28,7 +28,7 @@
     },
     "dependencies": {
         "admin-lte": "^3.0.0-alpha.2",
-        "chart.js": "^2.8.0",
+        "chart.js": "^2.9.4",
         "hchs-vue-charts": "^1.2.8",
         "highcharts": "^7.0.3",
         "highcharts-vue": "^1.2.0",
