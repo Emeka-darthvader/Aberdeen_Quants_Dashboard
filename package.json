@@ -33,7 +33,7 @@
         "highcharts": "^7.0.3",
         "highcharts-vue": "^1.2.0",
         "laravel-vue-pagination": "^2.2.0",
-        "moment": "^2.23.0",
+        "moment": "^2.29.2",
         "sweetalert2": "^7.33.1",
         "vform": "^1.0.0",
         "vue-chartjs": "^3.4.0",
